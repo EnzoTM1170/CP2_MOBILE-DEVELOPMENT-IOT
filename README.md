@@ -1,53 +1,70 @@
-# CP2_MOBILE-DEVELOPMENT-IOT
+# 🧮 Calculadora Pro - CP2 Mobile Development IoT
 
-Calculadora Pro
-Descrição
-Calculadora Pro é um aplicativo móvel desenvolvido em React Native que combina funcionalidades de calculadora básica com recursos avançados como temas personalizáveis, histórico de operações e formulários de configuração.
+<div align="center">
 
-Funcionalidades
-🧮 Calculadora
-Operações matemáticas básicas (adição, subtração, multiplicação, divisão)
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Expo](https://img.shields.io/badge/Expo-1B1F23?style=for-the-badge&logo=expo&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-Funções adicionais (porcentagem, backspace, clear)
+*Uma calculadora moderna e personalizável desenvolvida em React Native*
 
-Suporte a números decimais
+</div>
 
-Prevenção de divisão por zero
+## 📱 Sobre o Projeto
 
-🎨 Personalização
-Temas: Escuro e Claro
+A **Calculadora Pro** é um aplicativo móvel sofisticado que vai além das calculadoras tradicionais, oferecendo uma experiência personalizável com temas, histórico de operações e configurações avançadas. Desenvolvido como parte do Checkpoint 2 da disciplina de Mobile Development.
 
-Configuração de precisão decimal: 0 a 4 casas decimais
+---
 
-📊 Histórico
-Registro das últimas 10 operações realizadas
+## ✨ Funcionalidades Destacadas
 
-Opção para limpar o histórico
+### 🧮 **Calculadora Inteligente**
+- ➕➖ Operações matemáticas básicas
+- 🔢 Suporte a números decimais
+- ⚠️ Prevenção de divisão por zero
+- ⌫ Função de backspace e clear
 
-👤 Formulários
-Formulário 1: Dados do usuário (nome e email)
+### 🎨 **Personalização Total**
+- 🌙 **Tema Escuro** - Interface moderna e elegante
+- ☀️ **Tema Claro** - Layout limpo e brilhante
+- 🔧 **Precisão Configurável** - 0 a 4 casas decimais
 
-Formulário 2: Configurações da calculadora
+### 📊 **Histórico Avançado**
+- 📝 Registro das últimas 10 operações
+- 🗑️ Opção para limpar histórico
+- 📈 Visualização organizada
 
-Tecnologias Utilizadas
-React Native
+### 👤 **Sistema de Perfil**
+- 📋 Formulário de dados do usuário
+- ⚙️ Configurações personalizadas
+- 💾 Salvamento de preferências
 
-Expo
+---
 
-React Hooks (useState)
+## 🛠️ Tecnologias Utilizadas
 
-Componentes nativos do React Native
+| Tecnologia | Descrição |
+|------------|-----------|
+| **React Native** | Framework para desenvolvimento mobile |
+| **Expo** | Plataforma para desenvolvimento React Native |
+| **React Hooks** | Gerenciamento de estado com useState |
+| **Picker** | Seleção de opções personalizada |
 
-@react-native-picker/picker
+---
 
+## 🚀 Como Executar
 
-Estrutura do Projeto
-App.js: Componente principal com toda a lógica da aplicação
+```bash
+# 1. Clone o repositório
+git clone https://github.com/seu-usuario/calculadora-pro.git
 
-app.json: Configurações do Expo
+# 2. Entre no diretório
+cd calculadora-pro
 
-Nome: Enzo Teles de Moura
+# 3. Instale as dependências
+npm install
 
-RM: 553899
+# 4. Execute o projeto
+expo start
 
-Turma: 3ESPB
+# 5. Escaneie o QR code com o app Expo Go
